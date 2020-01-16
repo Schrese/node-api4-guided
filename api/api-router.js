@@ -5,7 +5,7 @@ const Shouts = require('../shouts/shouts-model.js');
 const router = express.Router();
 
 router.use(express.json());
-
+//all these paths begin with /api (good comment to put at the top, for future developers)
 router.get('/', (req, res) => {
   res.status(200).json({ api: 'up' });
 });
