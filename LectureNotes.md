@@ -12,4 +12,4 @@
     ```
         const port = process.env.PORT || 4000;
     ```
-- 
+- NODE_ENV means it's going to production. So we needed to change it to DB_ENV in order to deploy it, because we don't actually have a production environment
