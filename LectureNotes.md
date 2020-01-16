@@ -7,3 +7,9 @@
 - git remote -v => tells you what branch you're on
 - What we might want is to have the ability to just push to master and have heroku deploy automatically from there
 ## Steps
+- create the start script
+- change the port 
+    ```
+        const port = process.env.PORT || 4000;
+    ```
+- 
